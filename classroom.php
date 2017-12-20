@@ -24,20 +24,21 @@ Date:        <dd-mm-yyyy>
   	<!-- Left bar starts -->
      <div class="left-bar">
       <div class="image1">
-        <img src="images/dcentmass_png.png" class="img-responsive">
+        <img src="images/dcentmass_png.png" class="img-fluid">
       </div>
       <ul>
         <!-- User class="activeLink" to make links active -->
-        <li><a href="#">Home</a></li>
-        <li><a href="#">DCent MASS</a></li>
-        <li><a href="#">Our Services</a></li>
-        <li><a href="#">Student Hub</a></li>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Media</a></li>
-        <li><a href="#">Forum</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li style="border-bottom: 2px solid #06f;"><a href="#">FAQs</a></li>
+        <li class="activeLink"><a href="#"><i class="material-icons">home</i><span class="menuText">Home</span></a></li>
+        <li><a href="#"><i class="material-icons">language</i><span class="menuText">DCent MASS</span></a></li>
+        <li><a href="#"><i class="material-icons">settings_applications</i><span class="menuText">Our Services</span></a></li>
+        <li><a href="#"><i class="material-icons">group_work</i><span class="menuText">Student Hub</span></a></li>
+        <li><a href="#"><i class="material-icons">library_books</i><span class="menuText">Courses</span></a></li>
+        <li><a href="#"><i class="material-icons">event</i><span class="menuText">Events</span></a></li>
+        <li><a href="#"><i class="material-icons">perm_media</i><span class="menuText">Media</span></a></li>
+        <!-- <li><a href="#">Forum</a></li> -->
+        <li><a href="#"><i class="material-icons">contacts</i><span class="menuText">Contact Us</span></a></li>
+        <!-- <li style="border-bottom:  2px solid #06f;"><a href="#"></a></li> -->
+        <!-- <li style="border-bottom: 2px solid #06f;"><a href="#">FAQs</a></li> -->
       </ul>
      </div>
      <!-- Left bar ends -->
@@ -53,16 +54,17 @@ Date:        <dd-mm-yyyy>
         <li><a href="#">Courses</a></li>
         <li><a href="#">Events</a></li>
         <li><a href="#">Media</a></li>
-        <li><a href="#">Forum</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li style="border-bottom:  2px solid #06f;"><a href="#">FAQs</a></li>
+        <!-- <li><a href="#">Forum</a></li> -->
+        <li style="border-bottom:  2px solid #06f;"><a href="#">Contact Us</a></li>
+        <!-- <li style="border-bottom:  2px solid #06f;"><a href="#">FAQs</a></li> -->
+  </ul>
 </div>
 
 <span id="openNavID" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 <!-- Mobile bar ends here -->
      <!-- Right bar starts -->
      <div class="right-bars">
-     	<div class="righ-col-1"> <!-- User class="activeLink" to make links active -->
+      <div class="righ-col-1"> <!-- User class="activeLink" to make links active -->
         <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 1</span></div></a>
         <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 2</span></div></a>
         <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 3</span></div></a>
@@ -73,7 +75,7 @@ Date:        <dd-mm-yyyy>
         <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 8</span></div></a>
          
       </div>
-     	<div class="righ-col-2"> <!-- User class="activeLink" to make links active -->
+      <div class="righ-col-2"> <!-- User class="activeLink" to make links active -->
         <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 9</span></div></a>
         <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 10</span></div></a>
         <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 11</span></div></a>
@@ -82,11 +84,11 @@ Date:        <dd-mm-yyyy>
         <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 14</span></div></a>
         <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 15</span></div></a>
         <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 16</span></div></a>
-     	</div>
+      </div>
      </div>
      
-<div class="mainContainer" id="mainContainer" >  <!-- DO NOT REMOVE THIS -->
-	<div class="container-fluid">
+<div class="mainContainer" id="mainContainer">  <!-- DO NOT REMOVE THIS -->
+  <div class="container-fluid">
 <!-- MAIN CONTENT STARTS -->
 
 
@@ -111,56 +113,36 @@ Date:        <dd-mm-yyyy>
 
 
 <!-- curousal-->
-<div class="container">
-  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
 
-      <div class="item active">
-        <img src="../../DCentMass/images/maktum/carousal1.jpg" alt="Los Angeles" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Los Angeles</h3>
-          <p>LA is always so much fun!</p>
-        </div>
-      </div>
 
-      <div class="item">
-        <img src="../../DCentMass/images/maktum/carousal2.jpg" alt="Chicago" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Chicago</h3>
-          <p>Thank you, Chicago!</p>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="../../DCentMass/images/maktum/carousal3.jpg" alt="New York" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>We love the Big Apple!</p>
-        </div>
-      </div>
-  
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../../DCentMass/images/maktum/carousal1.jpg" alt="First slide">
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../../DCentMass/images/maktum/carousal2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../../DCentMass/images/maktum/carousal3.jpg" alt="Third slide">
+    </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+
 
 <!-- end of curousal-->
 <div class="container">
