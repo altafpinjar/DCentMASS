@@ -114,7 +114,7 @@ Date:        <dd-mm-yyyy>
 
     <div class="container-fluid">
   <div class="row">
-    
+    <hr>
     <div class="col-sm-12 col-12">
       <div id="section1" class="bg-success" style="height: 800px;">    
         <h1>Section 1</h1>
