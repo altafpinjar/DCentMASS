@@ -103,11 +103,8 @@ Date:        <dd-mm-yyyy>
 <br>
 <br><br>
 <br>
-<br><br>
-<br><br>
 <br>
-
-<div class="container">
+<div class="container-fluid">
   <div class="row">   
     <div class="col-md-12">
 
@@ -145,11 +142,10 @@ Date:        <dd-mm-yyyy>
 
 
 <!-- end of curousal-->
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-md-1">
-    </div>
-    <div class="col-md-10"> 
+   
+    <div class="col-md-12"> 
 <h2><font color="#0d5497">Classroom Training</font></h2>
 <h4 class="maktum-classroom-h4">Training Delivered By Professional Instructors in a Dynamic Learning Environment</h4>
 
@@ -161,15 +157,13 @@ Thomson Reuters Elite Education Services classroom training provides instructor-
 
  <label for="post-1" class="read-more-trigger"></label>
 </div>
-<div class="col-md-1">
-    </div>
+
 </div>
 
 
 <div class="row"> 
-  <div class="col-md-1">
-  </div>
-  <div class="col-md-10">
+  
+  <div class="col-md-12">
 <h4 class="maktum-classroom-h4">Regional Training</h4>
 <input type="checkbox" class="read-more-state" id="post-2" />
 <p class="read-more-wrap">One option for classroom training is to attend regional training courses. Depending on the training subject, learners may thrive best in an environment where collaboration is easy and peer insight is bountiful. Getting away from the office can often be beneficial for employees:<span class="read-more-target">  they can focus on learning without work distractions and also build camaraderie with other users that can result in valuable knowledge-sharing relationships in the future. In addition, participants can work with industry colleagues to solve problems, glean knowledge and outside perspective, and even learn tips and tricks.
@@ -178,16 +172,14 @@ Our regional classes are held at state-of-the-art learning facilities in conveni
 
 <label for="post-2" class="read-more-trigger"></label>
 </div>
-<div class="col-md-1">  
-</div>
+
 </div>
 
 
 
 <div class="row">
-  <div class="col-md-1">
-  </div>
-  <div class="col-md-10">
+ 
+  <div class="col-md-12">
 <h4 class="maktum-classroom-h4">Onsite Training</h4>
 <input type="checkbox" class="read-more-state" id="post-3" />
 <p class="read-more-wrap">When you want the ultimate convenience, yet still want the benefits of classroom training, our Education Services trainers can deliver prescriptive or customized training right at your firm. When we train onsite, there is no outside influence, therefore the training is focused solely on your needs.<span class="read-more-target">  Because there are no employee travel expenses involved, you save money, and learners have less time away from work.
@@ -195,8 +187,7 @@ Our regional classes are held at state-of-the-art learning facilities in conveni
 Our qualified instructors bring their insight, knowledge, and various teaching styles to meet the specific needs of your firm. Whether it’s training on enhancement sets, new modules, or for new staff, we can deliver prescriptive or custom curricula to match your configured software. The Thomson Reuters Elite Global Services Application and Technical Consultant Teams are also available when additional services are needed.</span></p>
  <label for="post-3" class="read-more-trigger"></label>
 </div>
-<div class="col-md-1">
-  </div>
+
 </div>
 </div>
 </div>

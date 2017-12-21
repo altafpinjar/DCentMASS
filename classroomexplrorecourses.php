@@ -19,8 +19,8 @@ Date:        <dd-mm-yyyy>
     <title>Title</title>
     <?php include_once("stylesAndFont.php"); ?>
 </head>
-<body>
-  <img src="images/maktum/background.png" style="position: fixed;"/>
+<body data-spy="scroll" data-offset="50" data-target=".navbar">
+ 
   	<!-- Left bar starts -->
 <div class="left-bar">
       <div class="image1">
@@ -89,34 +89,28 @@ Date:        <dd-mm-yyyy>
      
 <div class="mainContainer" id="mainContainer">  <!-- DO NOT REMOVE THIS -->
   <div class="container-fluid">
-<!-- MAIN CONTENT STARTS -->
+    <!-- MAIN CONTENT STARTS -->
+<br>
+<br>
 
+<br>
+<br>
 
-
-
-
-
-
+<br>
+<br>
 
 <!-- WRITE MAIN CONTENT HERE -->
+<!-- section scroll -->
 
 
-<div class="container">
-  <div class="row">   
-    <div class="col-md-12">
-               
-<video autoplay loop id="video-background" muted plays-inline >
-  <source src="#" type="video/mp4">
-</video>
-
-</div>
-</div>
-</div>
-<div class="container">
+<div id="section1" class="container-fluid" style="padding-top:40px;padding-bottom:40px; height: 650px; background-color: #ee2352;">
+ 
+  <div class="container">
   <div class="row">   
     <div class="col-md-12">
 
 <h2>Front-end Courses </h2>
+<br>
 <div class="container">
 
   <!-- Trigger the modal with a button -->
@@ -442,12 +436,41 @@ Date:        <dd-mm-yyyy>
 
 
 
+</div>
+</div>
+</div>
+</div></div>
+<div id="section2" class="container-fluid" style="padding-top:70px;padding-bottom:70px;  height: 650px; background-color: #1eaa75;">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section3" class="container-fluid" style="padding-top:70px;padding-bottom:70px;  height: 650px; background-color: #f46a2d;">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
 
+<!-- end  -->
+
+<div class="container">
+  <div class="row">   
+    <div class="col-md-12">
+ <!-- video background  -->              
+<video autoplay loop id="video-background" muted plays-inline >
+  <source src="#" type="video/mp4">
+</video>
+<!-- end  -->
+</div>
+</div>
+</div>
 
 
 <!-- MAIN CONTENT ENDS -->
 	</div>
 </div>
+
+
 <?php include_once("script.php"); ?>
 </body>
 </html>
