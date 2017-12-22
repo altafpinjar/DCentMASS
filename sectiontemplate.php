@@ -18,15 +18,7 @@ Date:        <dd-mm-yyyy>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
     <?php include_once("stylesAndFont.php"); ?>
-    <style type="text/css">
-        ul.nav-pills {
-      top: 20px;
-      position: fixed;
-  }
-  div.col-8 div {
-      height: 500px;
-  }
-    </style>
+  
 </head>
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
   	<!-- Left bar starts -->
@@ -77,33 +69,56 @@ Date:        <dd-mm-yyyy>
 
         <!-- User class="activeLink" to make links active -->
          <ul class="nav nav-pills flex-column">
-              <li class="nav-item" style="width: 105px; height: 105px;">
-          <a class="nav-link active" href="#section1"><div class="rightMenuBlocks"><span class="linkText">Text 1</span></div></a>
+              <li class="nav-item">
+          <a class="nav-link active" href="#section1"><div class="rightMenuBlocks"><span class="linkText">Classroom Training</span></div></a>
         </li>
-
-       <li class="nav-item" style="width: 105px; height: 105px;">
-          <a class="nav-link" href="#section2"><div class="rightMenuBlocks"><span class="linkText">Text 2</span></div></a></li>
-        <li class="nav-item" style="width: 105px; height: 105px;">
-          <a class="nav-link btn btn-info" role="button" href="#section3"><div class="rightMenuBlocks"><span class="linkText">Text 3</span></div></a></li>
-        <li class="nav-item" style="width: 105px; height: 105px;">
-          <a class="nav-link" href="#section41"><div class="rightMenuBlocks"><span class="linkText">Text 4</span></div></a></li>
-        <li class="nav-item" style="width: 105px; height: 105px;"> 
-          <a class="nav-link" href="#section42"><div class="rightMenuBlocks"><span class="linkText">Text 5</span></div></a></li>
-        <li  class="nav-item" style="width: 105px; height: 105px;"> <a class="nav-link" href="#"><div class="rightMenuBlocks"><span class="linkText">Text 6</span></div></a></li>
-        <li  class="nav-item" style="width: 105px; height: 105px;"> <a class="nav-link" href="#"><div class="rightMenuBlocks"><span class="linkText">Text 7</span></div></a></li>
-         <li  class="nav-item" style="width: 105px; height: 105px;"> <a class="nav-link" href="#"><div class="rightMenuBlocks"><span class="linkText">Text 8</span></div></a></li>
+       <li class="nav-item">
+          <a class="nav-link" href="#section2">
+            <div class="rightMenuBlocks">
+              <span class="linkText">Text 2</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3"><div class="rightMenuBlocks"><span class="linkText">Text 3</span></div></a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section4"><div class="rightMenuBlocks"><span class="linkText">Text 4</span></div></a></li>
+        <li class="nav-item"> 
+          <a class="nav-link" href="#section5"><div class="rightMenuBlocks"><span class="linkText">Text 5</span></div></a></li>
+        <li  class="nav-item"> 
+          <a class="nav-link" href="#section6"><div class="rightMenuBlocks"><span class="linkText">Text 6</span></div></a></li>
+        <li  class="nav-item"> 
+          <a class="nav-link" href="#section7"><div class="rightMenuBlocks"><span class="linkText">Text 7</span></div></a></li>
+         <li  class="nav-item"> 
+          <a class="nav-link" href="#section8"><div class="rightMenuBlocks"><span class="linkText">Text 8</span></div></a></li>
       </ul>
          
       </div>
      	<div class="righ-col-2"> <!-- User class="activeLink" to make links active -->
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 9</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 10</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 11</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 12</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 13</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 14</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 15</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 16</span></div></a>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#section9"><div class="rightMenuBlocks"><span class="linkText">Text 9</span></div></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section10">
+            <div class="rightMenuBlocks">
+              <span class="linkText">Text 10</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section11"><div class="rightMenuBlocks"><span class="linkText">Text 11</span></div></a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section12"><div class="rightMenuBlocks"><span class="linkText">Text 12</span></div></a></li>
+        <li class="nav-item"> 
+          <a class="nav-link" href="#section13"><div class="rightMenuBlocks"><span class="linkText">Text 13</span></div></a></li>
+        <li  class="nav-item"> 
+          <a class="nav-link" href="#section14"><div class="rightMenuBlocks"><span class="linkText">Text 14</span></div></a></li>
+        <li  class="nav-item"> 
+          <a class="nav-link" href="#section15"><div class="rightMenuBlocks"><span class="linkText">Text 15</span></div></a></li>
+         <li  class="nav-item"> 
+          <a class="nav-link" href="#section16"><div class="rightMenuBlocks"><span class="linkText">Text 16</span></div></a></li>
+      </ul>
      	</div>
      </div>
 
@@ -114,26 +129,41 @@ Date:        <dd-mm-yyyy>
 
     <div class="container-fluid">
   <div class="row">
-    <hr>
     <div class="col-sm-12 col-12">
-      <div id="section1" class="bg-success" style="height: 800px;">    
+      <div id="section1"  style="height: 800px;">    
         <h1>Section 1</h1>
         <p>Try to scroll this section and look at the navigation list while scrolling!</p>
       </div>
-      <div id="section2" class="bg-warning" style="height: 800px;"> 
+      <div id="section2" style="height: 800px;"> 
         <h1>Section 2</h1>
         <p>Try to scroll this section and look at the navigation list while scrolling!</p>
       </div>        
-      <div id="section3" class="bg-secondary" style="height: 800px;">         
+      <div id="section3"  style="height: 800px;">         
         <h1>Section 3</h1>
         <p>Try to scroll this section and look at the navigation list while scrolling!</p>
       </div>
-      <div id="section41" class="bg-danger" style="height: 800px;">         
-        <h1>Section 4-1</h1>
+      <div id="section4"  style="height: 800px;">         
+        <h1>Section 4</h1>
         <p>Try to scroll this section and look at the navigation list while scrolling!</p>
       </div>      
-      <div id="section42" class="bg-info" style="height: 800px;">         
-        <h1>Section 4-2</h1>
+      <div id="section5" style="height: 800px;">         
+        <h1>Section 5</h1>
+        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      </div>
+      <div id="section6" style="height: 800px;">         
+        <h1>Section 6</h1>
+        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      </div>
+      <div id="section7" style="height: 800px;">         
+        <h1>Section 7</h1>
+        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      </div>
+      <div id="section8" style="height: 800px;">         
+        <h1>Section 8</h1>
+        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      </div>
+      <div id="section9" style="height: 800px;">         
+        <h1>Section 9</h1>
         <p>Try to scroll this section and look at the navigation list while scrolling!</p>
       </div>
     </div>
