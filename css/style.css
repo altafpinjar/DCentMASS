@@ -212,3 +212,7 @@ display: inline;
 }
 
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        background-color: #74767A;
+}
+

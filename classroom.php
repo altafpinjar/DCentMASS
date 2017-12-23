@@ -238,6 +238,8 @@ Our qualified instructors bring their insight, knowledge, and various teaching s
 
 </div>
 </div>
+</div>
+</div>
 <br>
 <br>
 

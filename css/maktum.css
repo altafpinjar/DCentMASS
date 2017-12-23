@@ -215,10 +215,6 @@ color: #0d5495;
 /* section*/
 
 
-
-
-
-
 html {
     margin:0px;
     padding: 0px;
@@ -311,11 +307,8 @@ ul{
     text-align: center;
 }
 
-.rightMenuBlocks {
-  height: 12.5%;
-  border-bottom: 
-  border-left: 
-    background-color:;
+.rightMenuBlocks1 {
+  
     transition-timing-function: linear;
     transition: 1s;
 }
@@ -339,8 +332,8 @@ background-color: #666;
   padding-bottom: 37.8px;
 }
 
-.rightMenuBlocks:hover {
-    background-color: #666;
+.rightMenuBlocks1:hover {
+    
     transition-timing-function: ease;
     transition: 0.1s;
 }
@@ -351,7 +344,7 @@ background-color: #666;
     border:0px;
 }
 
-a .rightMenuBlocks {
+a .rightMenuBlocks1 {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
