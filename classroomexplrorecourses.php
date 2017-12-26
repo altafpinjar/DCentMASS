@@ -19,10 +19,9 @@ Date:        <dd-mm-yyyy>
     <title>Title</title>
     <?php include_once("stylesAndFont.php"); ?>
 </head>
-<body data-spy="scroll" data-offset="50" data-target=".navbar">
- 
-  	<!-- Left bar starts -->
-<div class="left-bar">
+<body data-spy="scroll" data-target="#myscroll" data-offset="50">
+    <!-- Left bar starts -->
+     <div class="left-bar">
       <div class="image1">
         <img src="images/dcentmass_png.png" class="img-fluid">
       </div>
@@ -63,47 +62,86 @@ Date:        <dd-mm-yyyy>
 <span id="openNavID" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 <!-- Mobile bar ends here -->
      <!-- Right bar starts -->
-     <div class="right-bars">
-      <div class="righ-col-1"> <!-- User class="activeLink" to make links active -->
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 1</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 2</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 3</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 4</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 5</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 6</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 7</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 8</span></div></a>
+
+   <nav class="mynavbar col-sm-2 col-4">
+     <div class="right-bars" id="myscroll">
+      <div class="righ-col-1"> 
+
+        <!-- User class="activeLink" to make links active -->
+         <ul class="nav nav-pills flex-column" >
+              <li class="nav-item">
+          <a class="nav-link active" href="#section1"><div class="rightMenuBlocks1"><span class="linkText">Classroom Training</span></div></a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="#section2">
+            <div class="rightMenuBlocks1">
+              <span class="linkText">Text 2</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3"><div class="rightMenuBlocks1"><span class="linkText">Text 3</span></div></a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section4"><div class="rightMenuBlocks1"><span class="linkText">Text 4</span></div></a></li>
+        <li class="nav-item"> 
+          <a class="nav-link" href="#section5"><div class="rightMenuBlocks1"><span class="linkText">Text 5</span></div></a></li>
+        <li  class="nav-item"> 
+          <a class="nav-link" href="#section6"><div class="rightMenuBlocks1"><span class="linkText">Text 6</span></div></a></li>
+        <li  class="nav-item"> 
+          <a class="nav-link" href="#section7"><div class="rightMenuBlocks1"><span class="linkText">Text 7</span></div></a></li>
+         <li  class="nav-item"> 
+          <a class="nav-link" href="#section8"><div class="rightMenuBlocks1"><span class="linkText">Text 8</span></div></a></li>
+      </ul>
          
       </div>
       <div class="righ-col-2"> <!-- User class="activeLink" to make links active -->
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 9</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 10</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 11</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 12</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 13</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 14</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 15</span></div></a>
-        <a href="#"><div class="rightMenuBlocks"><span class="linkText">Text 16</span></div></a>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="#section9"><div class="rightMenuBlocks1"><span class="linkText">Text 9</span></div></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section10">
+            <div class="rightMenuBlocks1">
+              <span class="linkText">Text 10</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section11"><div class="rightMenuBlocks1"><span class="linkText">Text 11</span></div></a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section12"><div class="rightMenuBlocks1"><span class="linkText">Text 12</span></div></a></li>
+        <li class="nav-item"> 
+          <a class="nav-link" href="#section13"><div class="rightMenuBlocks1"><span class="linkText">Text 13</span></div></a></li>
+        <li  class="nav-item"> 
+          <a class="nav-link" href="#section14"><div class="rightMenuBlocks1"><span class="linkText">Text 14</span></div></a></li>
+        <li  class="nav-item"> 
+          <a class="nav-link" href="#section15"><div class="rightMenuBlocks1"><span class="linkText">Text 15</span></div></a></li>
+         <li  class="nav-item"> 
+          <a class="nav-link" href="#section16"><div class="rightMenuBlocks1"><span class="linkText">Text 16</span></div></a></li>
+      </ul>
       </div>
      </div>
-     
+   </nav>
+
 <div class="mainContainer" id="mainContainer">  <!-- DO NOT REMOVE THIS -->
   <div class="container-fluid">
-    <!-- MAIN CONTENT STARTS -->
-<br>
-<br>
+<!-- MAIN CONTENT STARTS -->
+<span class="bgtext"> Background Text </span>
 
-<br>
-<br>
-
-<br>
-<br>
 
 <!-- WRITE MAIN CONTENT HERE -->
 <!-- section scroll -->
 
 
-<div id="section1" class="container-fluid" style="padding-top:40px;padding-bottom:40px; height: 650px; background-color: #ee2352;">
+<br>
+<br>
+<br>
+<br>
+
+    <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 col-12">
+      <div id="section1"  style="height: 700px;">   
  
   <div class="container">
   <div class="row">   
@@ -130,7 +168,7 @@ Date:        <dd-mm-yyyy>
         </button>
       </div>
       <div class="modal-body" style="background-color:#424D58;">
-         <div class="row" style="background-color:#424D58;">
+         <div class="row">
         <div class="col-md-12">
             <font color="white">
             <h3>Bootstrap is tool for Web Development </h3>
@@ -321,7 +359,235 @@ Date:        <dd-mm-yyyy>
 <div class="container">
     <div class="row">
         <div class="col-md-3">
-<div class="card">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>HTML</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Enroll Now</button>
+  </div>
+</div>
+</div>
+     <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>CSS</b></h4> 
+    
+     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Enroll Now</button>
+  </div>
+</div>
+</div>
+ <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>JavaScript</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Enroll Now</button>
+  </div>
+</div>
+</div>
+     <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>Bootstrap</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">Enroll Now</button>
+  </div>
+</div>
+</div>
+</div>
+<!-- part 2-->
+<br>
+<br>
+     <div class="row">
+        <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>Angular JS</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enroll Now</button>
+  </div>
+</div>
+</div>
+     <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>React JS</b></h4> 
+    
+     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enroll Now</button>
+  </div>
+</div>
+</div>
+ <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>JQuery</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enroll Now</button>
+  </div>
+</div>
+</div>
+     <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>Foundation</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enroll Now</button>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- NOTE: Please keep your code clean + readable and add comments -->
+
+</div>
+</div>
+</div>
+</div></div>
+<hr>
+     <div id="section2"> 
+      <h2> Back-end Cources</h2>
+      <div class="container">
+    <div class="row">
+        <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>My-SQL</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Enroll Now</button>
+  </div>
+</div>
+</div>
+     <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>PHP</b></h4> 
+    
+     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Enroll Now</button>
+  </div>
+</div>
+</div>
+ <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>Phython</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Enroll Now</button>
+  </div>
+</div>
+</div>
+     <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>J2EE</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">Enroll Now</button>
+  </div>
+</div>
+</div>
+</div>
+<!-- part 2-->
+<br>
+<br>
+     <div class="row">
+        <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>Oracle</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enroll Now</button>
+  </div>
+</div>
+</div>
+     <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>ASP.NET</b></h4> 
+    
+     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enroll Now</button>
+  </div>
+</div>
+</div>
+ <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>Perl</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enroll Now</button>
+  </div>
+</div>
+</div>
+     <div class="col-md-3">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>Java</b></h4> 
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enroll Now</button>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- NOTE: Please keep your code clean + readable and add comments -->
+
+</div>
+  </div>
+  <br>
+  <br>
+      <hr>      
+      <div id="section3" >    
+      <h2> Server side Cources</h2>     
+        <div class="container">
+    <div class="row">
+        <div class="col-md-3">
+<div class="card classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -333,7 +599,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card">
+<div class="card classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -345,7 +611,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
  <div class="col-md-3">
-<div class="card">
+<div class="card classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -357,7 +623,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card">
+<div class="card classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -374,7 +640,7 @@ Date:        <dd-mm-yyyy>
 <br>
      <div class="row">
         <div class="col-md-3">
-<div class="card">
+<div class="card classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -386,7 +652,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card">
+<div class="card classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -398,7 +664,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
  <div class="col-md-3">
-<div class="card">
+<div class="card classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -410,7 +676,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card">
+<div class="card classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -422,48 +688,20 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
 </div>
+
 <br>
 <br>
-
-
-
 
 <!-- NOTE: Please keep your code clean + readable and add comments -->
 
-
-
-
-
-
-
 </div>
-</div>
-</div>
-</div></div>
-<div id="section2" class="container-fluid" style="padding-top:70px;padding-bottom:70px;  height: 650px; background-color: #1eaa75;">
-  <h1>Section 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section3" class="container-fluid" style="padding-top:70px;padding-bottom:70px;  height: 650px; background-color: #f46a2d;">
-  <h1>Section 3</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
+      </div>
+      <hr>  
+     
 
 <!-- end  -->
 
-<div class="container">
-  <div class="row">   
-    <div class="col-md-12">
- <!-- video background  -->              
-<video autoplay loop id="video-background" muted plays-inline >
-  <source src="#" type="video/mp4">
-</video>
-<!-- end  -->
-</div>
-</div>
-</div>
+
 
 
 <!-- MAIN CONTENT ENDS -->

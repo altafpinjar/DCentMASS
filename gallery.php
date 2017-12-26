@@ -96,7 +96,7 @@ Date:        <dd-mm-yyyy>
 
 
 <!-- WRITE MAIN CONTENT HERE -->
-<div class="container gallery-container">
+<div class="container gallery-container1">
 
     <h1>SUCO Technologies Gallery</h1>
 

@@ -22,7 +22,7 @@ Date:        <dd-mm-yyyy>
 
 </head>
 <body data-spy="scroll" data-target="#myscroll" data-offset="50">
-  	<!-- Left bar starts -->
+    <!-- Left bar starts -->
      <div class="left-bar">
       <div class="image1">
         <img src="images/dcentmass_png.png" class="img-fluid">
@@ -67,7 +67,7 @@ Date:        <dd-mm-yyyy>
 
    <nav class="mynavbar col-sm-2 col-4">
      <div class="right-bars" id="myscroll">
-     	<div class="righ-col-1"> 
+      <div class="righ-col-1"> 
 
         <!-- User class="activeLink" to make links active -->
          <ul class="nav nav-pills flex-column" >
@@ -96,7 +96,7 @@ Date:        <dd-mm-yyyy>
       </ul>
          
       </div>
-     	<div class="righ-col-2"> <!-- User class="activeLink" to make links active -->
+      <div class="righ-col-2"> <!-- User class="activeLink" to make links active -->
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
           <a class="nav-link" href="#section9"><div class="rightMenuBlocks1"><span class="linkText">Text 9</span></div></a>
@@ -121,14 +121,15 @@ Date:        <dd-mm-yyyy>
          <li  class="nav-item"> 
           <a class="nav-link" href="#section16"><div class="rightMenuBlocks1"><span class="linkText">Text 16</span></div></a></li>
       </ul>
-     	</div>
+      </div>
      </div>
    </nav>
 
 <div class="mainContainer" id="mainContainer">  <!-- DO NOT REMOVE THIS -->
-	<div class="container-fluid">
+  <div class="container-fluid">
 <!-- MAIN CONTENT STARTS -->
 <span class="bgtext"> Background Text </span>
+
 
 <br>
 <br>
@@ -138,9 +139,138 @@ Date:        <dd-mm-yyyy>
     <div class="container-fluid">
   <div class="row">
     <div class="col-sm-12 col-12">
-      <div id="section1"  style="height: 1100px;">    
+      <div id="section1">    
         
 
+<!-- curousal-->
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-classroom1">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../../DCentMass/images/maktum/carousal1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../../DCentMass/images/maktum/carousal2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../../DCentMass/images/maktum/carousal3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!-- end of curousal-->
+<div class="container-fluid">
+  <div class="row">
+   
+    <div class="col-md-12"> 
+<h2><font color="#0d5497">Classroom Training</font></h2>
+<h4 class="maktum-classroom-h4">Training Delivered By Professional Instructors in a Dynamic Learning Environment</h4>
+
+       
+  <input type="checkbox" class="read-more-state" id="post-1" />
+<p class="read-more-wrap">Classroom training has been the foundation of employee and client education for years. Many participants learn best and have the greatest opportunity for retention when they learn from a live instructor in a classroom setting.<span class="read-more-target"> Classroom training affords the opportunity to incorporate various learning principles, including lectures, demonstrations, hands-on workshops, and retention quizzes.
+
+Thomson Reuters Elite Education Services classroom training provides instructor-led classes in a dynamic learning environment. Courses give you a hands-on approach and are delivered where it’s convenient for you—regionally or on-site.</span></p>
+
+ <label for="post-1" class="read-more-trigger"></label>
+</div>
+
+</div>
+
+
+<div class="row"> 
+  
+  <div class="col-md-12">
+<h4 class="maktum-classroom-h4">Regional Training</h4>
+<input type="checkbox" class="read-more-state" id="post-2" />
+<p class="read-more-wrap">One option for classroom training is to attend regional training courses. Depending on the training subject, learners may thrive best in an environment where collaboration is easy and peer insight is bountiful. Getting away from the office can often be beneficial for employees:<span class="read-more-target">  they can focus on learning without work distractions and also build camaraderie with other users that can result in valuable knowledge-sharing relationships in the future. In addition, participants can work with industry colleagues to solve problems, glean knowledge and outside perspective, and even learn tips and tricks.
+
+Our regional classes are held at state-of-the-art learning facilities in convenient worldwide locations, each with fully-equipped computer workstations for each learner. This is a popular learning format that ensures your team of employees receives the same hands-on training approach for message consistency. Courses include lecture, demonstration, software interaction (workshop), topic quiz, and optional retention testing.</span></p>
+
+<label for="post-2" class="read-more-trigger"></label>
+</div>
+
+</div>
+
+
+
+<div class="row">
+ 
+  <div class="col-md-12">
+<h4 class="maktum-classroom-h4">Onsite Training</h4>
+<input type="checkbox" class="read-more-state" id="post-3" />
+<p class="read-more-wrap">When you want the ultimate convenience, yet still want the benefits of classroom training, our Education Services trainers can deliver prescriptive or customized training right at your firm. When we train onsite, there is no outside influence, therefore the training is focused solely on your needs.<span class="read-more-target">  Because there are no employee travel expenses involved, you save money, and learners have less time away from work.
+
+Our qualified instructors bring their insight, knowledge, and various teaching styles to meet the specific needs of your firm. Whether it’s training on enhancement sets, new modules, or for new staff, we can deliver prescriptive or custom curricula to match your configured software. The Thomson Reuters Elite Global Services Application and Technical Consultant Teams are also available when additional services are needed.</span></p>
+ <label for="post-3" class="read-more-trigger"></label>
+</div>
+
+</div>
+</div>
+
+
+<br>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
+  </div>
+  <div class="container cards">
+    <h4><b>Front-end courses</b></h4> 
+    
+    <a href="../DCentMASS/classroomexplrorecourses.php"><button type="button" class="btn btn-primary">View Cources</button></a>
+  </div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo (1).jpg" alt="Avatar">
+</div>
+  <div class="container cards">
+    <h4><b>Back-end courses</b></h4> 
+     
+   <a href="../DCentMASS/trainingbootstrap.php"><button type="button" class="btn btn-primary"><font color="white">View Cources</font></button></a>
+</div>
+</div>
+</div>
+
+       <div class="col-md-4">
+<div class="card classroomcard">
+  <div class="thumbnail">
+  <img src="../../DCentMass/images/maktum/pexels-photo-325229.jpeg" alt="Avatar">
+</div>
+  <div class="container cards">
+    <h4><b>Server-side courses</b></h4> 
+     
+   <a href="../DCentMASS/trainingbootstrap.php"><button type="button" class="btn btn-primary"><font color="white">View Cources</font></button></a>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
 
       </div>
       <hr>  
@@ -187,6 +317,7 @@ Date:        <dd-mm-yyyy>
     <hr> 
   </div>
 </div>
+<!--
    <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -212,7 +343,7 @@ $(document).ready(function(){
     } // End if
   });
 });
-
+-->
 </script>
 <?php include_once("script.php"); ?>
 </body>
