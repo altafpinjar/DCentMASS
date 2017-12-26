@@ -5,7 +5,7 @@
       height: 100%;
   }
 
-.container.gallery-container1 {
+.maktum-container.maktum-gallery-container1 {
     background-color: #fff;
     color: #35373a;
     min-height: 100vh;
@@ -13,14 +13,14 @@
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 }
 
-.gallery-container1 h1 {
+.maktum-gallery-container1 h1 {
     text-align: center;
     
     font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
 }
 
-.gallery-container1 p.page-description {
+.maktum-gallery-container1 p.page-description {
     text-align: center;
     max-width: 800px;
     margin: 25px auto;
@@ -28,14 +28,14 @@
     font-size: 18px;
 }
 
-.tz-gallery {
+.maktum-tz-gallery {
     padding: 40px;
      position: relative;
   
  
 }
 
-.tz-gallery .lightbox img {
+.maktum-tz-gallery .lightbox img {
     width: 100%;
     margin-bottom: 30px;
 
@@ -53,7 +53,7 @@
 }
 
 
-.tz-gallery .lightbox img:hover {
+.maktum-tz-gallery .lightbox img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0,0,0,0.3);
         transform:scale(1.3,1.3);
@@ -64,7 +64,7 @@
   transform: scale(1.1);
 }
 
-.tz-gallery img {
+.maktum-tz-gallery img {
     border-radius: 4px;
      position: relative;
   
@@ -74,14 +74,14 @@
   width: 540px;
 }
 
-.baguetteBox-button {
+.maktum-baguetteBox-button {
     background-color: transparent !important;
 }
 
 
 
 
-    .container.gallery-container1 {
+    .container.maktum-gallery-container1 {
         border-radius: 0;
     }
 }
@@ -101,15 +101,15 @@
 }
 
                                                                                                       /*training*/
-.classroomcard {
+.maktum-classroomcard {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 250px; height: 270px;
+    width: 260px; height: 270px;
 }
 
 /* On mouse-over, add a deeper shadow */
-.classroomcard:hover {
+.maktum-classroomcard:hover {
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);
 }
 
@@ -424,3 +424,13 @@ text-align: justify;
 display: inline;
 }
 
+
+
+
+
+
+
+
+.classmodal{
+  background-color:#424D58;
+}

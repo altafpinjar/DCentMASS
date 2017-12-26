@@ -22,7 +22,7 @@ Date:        <dd-mm-yyyy>
 <body>
 
     
-     <img src="images/maktum/mediadp.png" style="position: fixed;"/>
+   
   
   	<!-- Left bar starts -->
 <div class="left-bar">
@@ -96,14 +96,14 @@ Date:        <dd-mm-yyyy>
 
 
 <!-- WRITE MAIN CONTENT HERE -->
-<div class="container gallery-container1">
+<div class="maktum-container maktum-gallery-container1">
 
     <h1>SUCO Technologies Gallery</h1>
 
     <p class="page-description text-center">Fly High With Spread Wings</p>
     
     
-    <div class="tz-gallery">    
+    <div class="maktum-tz-gallery">    
         <div class="row">
             <div class="col-sm-6 col-md-2">
                 <a class="lightbox" href="../../DCentMass/images/maktum/park.jpg">
@@ -171,9 +171,7 @@ Date:        <dd-mm-yyyy>
         
         </div>                 
 
-        <div class="row">
-
-                
+        <div class="row">                
             <div class="col-sm-6 col-md-2">
                 <a class="lightbox" href="../../DCentMass/images/maktum/park.jpg">
                     <img src="../../DCentMass/images/maktum/park.jpg" alt="Park">
@@ -203,9 +201,7 @@ Date:        <dd-mm-yyyy>
                 <a class="lightbox" href="../../DCentMass/images/maktum/traffic.jpg">
                     <img src="../../DCentMass/images/maktum/traffic.jpg" alt="Traffic">
                 </a>
-            </div>
-              
-        
+            </div>      
         </div>
 
 
@@ -272,7 +268,6 @@ Date:        <dd-mm-yyyy>
 <!-- MAIN CONTENT ENDS -->
 	</div>
 </div>
-<
 <?php include_once("script.php"); ?>
 </body>
 </html>

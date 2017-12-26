@@ -162,16 +162,16 @@ Date:        <dd-mm-yyyy>
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h2 class="modal-title" id="exampleModalLongTitle">Bootstrap</h2>
+        <h2 class="modal-title" id="exampleModalLongTitle">HTML</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" style="background-color:#424D58;">
+      <div class="modal-body classmodal">
          <div class="row">
         <div class="col-md-12">
             <font color="white">
-            <h3>Bootstrap is tool for Web Development </h3>
+            <h3>HTML is tool for Web Development </h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </font>
         </div>
@@ -236,16 +236,16 @@ Date:        <dd-mm-yyyy>
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h2 class="modal-title" id="exampleModalLongTitle">HTML</h2>
+        <h2 class="modal-title" id="exampleModalLongTitle">CSS</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" style="background-color:#424D58;">
-         <div class="row" style="background-color:#424D58;">
+      <div class="modal-body classmodal">
+         <div class="row">
         <div class="col-md-12">
             <font color="white">
-            <h3>HTML is tool for Web Development </h3>
+            <h3>CSS is tool for Web Development </h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </font>
         </div>
@@ -309,12 +309,15 @@ Date:        <dd-mm-yyyy>
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">JavaScript</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body classmodal">
+
+
+
         ...
       </div>
         <div class="modal-footer">
@@ -359,7 +362,7 @@ Date:        <dd-mm-yyyy>
 <div class="container">
     <div class="row">
         <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -371,7 +374,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -383,7 +386,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
  <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -395,7 +398,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -412,7 +415,7 @@ Date:        <dd-mm-yyyy>
 <br>
      <div class="row">
         <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -424,7 +427,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -436,7 +439,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
  <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -448,7 +451,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -473,7 +476,7 @@ Date:        <dd-mm-yyyy>
       <div class="container">
     <div class="row">
         <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -485,7 +488,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -497,7 +500,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
  <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -509,7 +512,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -526,7 +529,7 @@ Date:        <dd-mm-yyyy>
 <br>
      <div class="row">
         <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -538,7 +541,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -550,7 +553,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
  <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -562,7 +565,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -587,7 +590,7 @@ Date:        <dd-mm-yyyy>
         <div class="container">
     <div class="row">
         <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -599,7 +602,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -611,7 +614,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
  <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -623,7 +626,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -640,7 +643,7 @@ Date:        <dd-mm-yyyy>
 <br>
      <div class="row">
         <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -652,7 +655,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -664,7 +667,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
  <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
@@ -676,7 +679,7 @@ Date:        <dd-mm-yyyy>
 </div>
 </div>
      <div class="col-md-3">
-<div class="card classroomcard">
+<div class="card maktum-classroomcard">
   <div class="thumbnail">
   <img src="../../DCentMass/images/maktum/pexels-photo-196644.jpeg" alt="Avatar">
   </div>
